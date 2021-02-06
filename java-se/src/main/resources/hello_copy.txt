@@ -1,0 +1,8 @@
+hello china!
+你好中国! 
+hello china!
+\n hello china! 你好中国!
+hello
+china! 你好中国!
+hello china! 
+你好中国!
