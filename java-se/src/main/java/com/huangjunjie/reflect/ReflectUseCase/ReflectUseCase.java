@@ -33,7 +33,7 @@ public class ReflectUseCase {
 
         //1.加载配置文件
         Properties properties=new Properties();
-        properties.load(new FileReader(new File("src\\main\\java\\reflect\\ReflectUseCase\\pro.properties")));
+        properties.load(new FileReader(new File("src\\main\\java\\com\\huangjunjie\\reflect\\ReflectUseCase\\pro.properties")));
 
         //2.获取配置文件中的数据（根据key获取相应的value）
         String className = properties.getProperty("className");

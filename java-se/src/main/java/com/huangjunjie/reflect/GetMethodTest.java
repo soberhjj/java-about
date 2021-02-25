@@ -20,7 +20,7 @@ public class GetMethodTest {
 
         System.out.println("---------------");
 
-        //获取class对象中的所有成员方法(无视修饰符级别)
+        //获取class对象中的指定名称的public修饰的成员方法
         Method method = studentClass.getMethod("setCollege",String.class);
         System.out.println(method);
 
@@ -33,7 +33,7 @@ public class GetMethodTest {
 
         System.out.println("---------------");
 
-        //获取class对象中的指定的成员方法(无视修饰符级别),下面获取一个private修饰的成员方法
+        //获取class对象中的指定名称的成员方法(无视修饰符级别),下面获取一个private修饰的成员方法
         Method method1 = studentClass.getDeclaredMethod("sayHello");
         System.out.println(method1);
 
