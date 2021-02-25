@@ -11,6 +11,7 @@
     <modules>
         <module>java-se</module>
         <module>third-party-libraries</module>
+        <module>java-log</module>
     </modules>
     <dependencies>
         <dependency>
