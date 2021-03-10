@@ -1,4 +1,4 @@
-package com.huangjunjie.regex;
+package com.huangjunjie.oftenusedclass.regex;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
