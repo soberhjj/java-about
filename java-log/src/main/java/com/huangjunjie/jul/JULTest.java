@@ -49,16 +49,14 @@ public class JULTest {
         logger.warning("warning");
         logger.info("info");
         //注意由于jul默认的日志级别是INFO，jul本质就是java内置的一个日志系统，通过jul的相关API，我们可以和jul这个日志系统进行交互
+        //jul日志系统默认的配置存储在 jre/lib/logging.properties，在这个默认配置文件中可以看到.level= INFO，所以jul默认的日志级别是INFO
         //上面的logger对象就是我们访问jul这个日志系统的入口
         //由于以下这些日志记录级别均小于jul日志系统默认的日志级别(即INFO)，固它们最终都不会被输出
         logger.config("config");
         logger.fine("fine");
         logger.finer("finer");
         logger.finest("finest");
-
-        System.out.println("----------------------------");
     }
 
-    //
 
 }
